@@ -2,3 +2,4 @@ service aodview-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.aod.aodview@1.0-servi
     class hal
     user system
     group system
+    seclabel u:r:hal_aodview_exec:s0

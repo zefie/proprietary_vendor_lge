@@ -2,3 +2,4 @@ service display-uevent-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.display.uevent
     class hal
     user root
     group root
+    seclabel u:r:hal_display_uevent_exec:s0
