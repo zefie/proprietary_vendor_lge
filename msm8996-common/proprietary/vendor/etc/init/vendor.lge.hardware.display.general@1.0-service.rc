@@ -2,4 +2,3 @@ service displaygeneral-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.display.genera
     class hal
     user system
     group system
-    seclabel u:r:hal_display_general_exec:s0

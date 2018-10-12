@@ -675,7 +675,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.tune@1.0.so:/system/lib/vendor.lge.hardware.display.tune@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.uevent.dpsupport@1.0.so:/system/lib/vendor.lge.hardware.display.uevent.dpsupport@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.general@1.0.so:/system/lib/vendor.lge.hardware.display.general@1.0.so \
-    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.uevent@1.0.so:/system/lib/vendor.lge.hardware.display.uevent@1.0.so
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.uevent@1.0.so:/system/lib/vendor.lge.hardware.display.uevent@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/lights.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.msm8996.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/hw/lights.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.msm8996.so
+    
 
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
@@ -703,7 +706,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     QtiTelephonyServicelibrary \
     qcrilhook \
-    qti-telephony-common
+    qti-telephony-common \
+    GmsCore
 endif
 
 -include vendor/extra/devices.mk

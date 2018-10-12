@@ -2,4 +2,3 @@ service aodpower-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.aod.aodpower@1.0-ser
     class hal
     user system
     group system
-    seclabel u:r:hal_aodpower_exec:s0

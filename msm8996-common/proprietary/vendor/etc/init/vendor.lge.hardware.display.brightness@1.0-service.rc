@@ -2,4 +2,3 @@ service displaybrightness-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.display.bri
     class hal
     user system
     group system
-    seclabel u:r:hal_display_brightness_exec:s0

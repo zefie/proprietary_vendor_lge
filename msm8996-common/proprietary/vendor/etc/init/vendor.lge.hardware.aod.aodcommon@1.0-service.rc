@@ -2,4 +2,3 @@ service aodcommon-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.aod.aodcommon@1.0-s
     class hal
     user system
     group system
-    seclabel u:r:hal_aodcommon_exec:s0

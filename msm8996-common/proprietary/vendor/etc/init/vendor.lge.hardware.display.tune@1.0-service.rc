@@ -2,4 +2,3 @@ service displaytune-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.display.tune@1.0-
     class hal
     user system
     group system
-    seclabel u:r:hal_display_tune_exec:s0
