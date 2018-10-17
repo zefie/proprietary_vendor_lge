@@ -118,7 +118,8 @@ PRODUCT_PACKAGES += \
     VZWAVS \
     VzwLcSilent \
     VzwOmaTrigger \
-    VerizonUnifiedSettings
+    VerizonUnifiedSettings \
+    GmsCore
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
