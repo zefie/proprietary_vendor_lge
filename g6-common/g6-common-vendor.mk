@@ -63,13 +63,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Bluetooth_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/General_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Global_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Handset_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Hdmi_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Headset_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Speaker_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Bluetooth_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/General_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Global_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Handset_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Hdmi_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Headset_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Speaker_cal.acdb \
     vendor/lge/g6-common/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/lge/g6-common/proprietary/vendor/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml \
     vendor/lge/g6-common/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
