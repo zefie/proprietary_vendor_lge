@@ -571,7 +571,6 @@ PRODUCT_COPY_FILES += \
 
 # Hexedited blobs
 PRODUCT_COPY_FILES += \
-    vendor/lge/msm8996-common/proprietary/lib64/android.hardware.gnss@8.0.so:system/lib64/android.hardware.gnss@8.0.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/lib-sec-disp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-sec-disp.so \
 
 PRODUCT_PACKAGES += \
