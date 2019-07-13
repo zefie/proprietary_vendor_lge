@@ -799,8 +799,8 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     WfdService \
     WfdCommon \
-    qti-telephony-common \
-    GmsCore
+    qti-telephony-common
+
 endif
 
 -include vendor/extra/devices.mk
