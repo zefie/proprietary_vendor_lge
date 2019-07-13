@@ -710,6 +710,73 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libhui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhui.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libux.so
 
+# AOD
+PRODUCT_COPY_FILES += \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.aod.aodview@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.aod.aodview@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.aod.aodcommon@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.aod.aodcommon@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.aod.aodpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.aod.aodpower@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.aod.aodcommon@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.aod.aodcommon@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.aod.aodpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.aod.aodpower@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.aod.aodview@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.aod.aodview@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.aod.aodcommon@1.0.so:system/lib/vendor.lge.hardware.aod.aodcommon@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.aod.aodcommon@1.0.so:system/lib64/vendor.lge.hardware.aod.aodcommon@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.aod.aodview@1.0.so:system/lib/vendor.lge.hardware.aod.aodview@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.aod.aodview@1.0.so:system/lib64/vendor.lge.hardware.aod.aodview@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.aod.aodpower@1.0.so:system/lib/vendor.lge.hardware.aod.aodpower@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.aod.aodpower@1.0.so:system/lib64/vendor.lge.hardware.aod.aodpower@1.0.so \
+    vendor/lge/msm8996-common/proprietary/product/lib/libaodlayer.so:/system/product/lib/libaodlayer.so \
+    vendor/lge/msm8996-common/proprietary/product/lib64/libaodlayer.so:/system/product/lib64/libaodlayer.so \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.aod.aodcommon-V1.0-java.jar:/system/framework/vendor.lge.hardware.aod.aodcommon-V1.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.aod.aodview-V1.0-java.jar:/system/framework/vendor.lge.hardware.aod.aodview-V1.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.aod.aodpower-V1.0-java.jar:/system/framework/vendor.lge.hardware.aod.aodpower-V1.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/vendor.lge.hardware.aod.aodcommon-V1.0-java.vdex:/system/framework/oat/arm/vendor.lge.hardware.aod.aodcommon-V1.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.aod.aodcommon-V1.0-java.vdex:/system/framework/oat/arm64/vendor.lge.hardware.aod.aodcommon-V1.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/vendor.lge.hardware.aod.aodcommon-V1.0-java.odex:/system/framework/oat/arm/vendor.lge.hardware.aod.aodcommon-V1.0-java.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.aod.aodcommon-V1.0-java.odex:/system/framework/oat/arm64/vendor.lge.hardware.aod.aodcommon-V1.0-java.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/vendor.lge.hardware.aod.aodview-V1.0-java.vdex:/system/framework/oat/arm/vendor.lge.hardware.aod.aodview-V1.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.aod.aodview-V1.0-java.vdex:/system/framework/oat/arm64/vendor.lge.hardware.aod.aodview-V1.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/vendor.lge.hardware.aod.aodview-V1.0-java.odex:/system/framework/oat/arm/vendor.lge.hardware.aod.aodview-V1.0-java.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.aod.aodview-V1.0-java.odex:/system/framework/oat/arm64/vendor.lge.hardware.aod.aodview-V1.0-java.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/vendor.lge.hardware.aod.aodpower-V1.0-java.vdex:/system/framework/oat/arm/vendor.lge.hardware.aod.aodpower-V1.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.aod.aodpower-V1.0-java.vdex:/system/framework/oat/arm64/vendor.lge.hardware.aod.aodpower-V1.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/vendor.lge.hardware.aod.aodpower-V1.0-java.odex:/system/framework/oat/arm/vendor.lge.hardware.aod.aodpower-V1.0-java.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.aod.aodpower-V1.0-java.odex:/system/framework/oat/arm64/vendor.lge.hardware.aod.aodpower-V1.0-java.odex \
+
+# Lights / Display
+PRODUCT_COPY_FILES += \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.display.general@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.display.general@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.display.uevent@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.display.uevent@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.light@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.light@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.display.tune@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.display.tune@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.display.brightness@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.display.brightness@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.light@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.light@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.display.uevent@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.display.uevent@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.display.general@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.display.general@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.display.tune@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.display.tune@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.display.brightness@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.display.brightness@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.general@1.0.so:/system/lib/vendor.lge.hardware.display.general@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.display.general@1.0.so:/system/lib64/vendor.lge.hardware.display.general@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.uevent@1.0.so:/system/lib/vendor.lge.hardware.display.uevent@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.display.uevent@1.0.so:/system/lib64/vendor.lge.hardware.display.uevent@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.brightness@1.0.so:/system/lib/vendor.lge.hardware.display.brightness@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.display.brightness@1.0.so:/system/lib64/vendor.lge.hardware.display.brightness@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.tune@1.0.so:/system/lib/vendor.lge.hardware.display.tune@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.display.tune@1.0.so:/system/lib64/vendor.lge.hardware.display.tune@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.light@1.0.so:/system/lib/vendor.lge.hardware.light@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.light@1.0.so:/system/lib64/vendor.lge.hardware.light@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/hw/vendor.lge.hardware.light@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.light@1.0-impl.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.light@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.light@1.0-impl.so \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.light-V1.0-java.jar:/system/framework/vendor.lge.hardware.light-V1.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.display.brightness-V1.0-java.jar:/system/framework/vendor.lge.hardware.display.brightness-V1.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.display.brightness-V1.0-java.jar:/system/framework/vendor.lge.hardware.display.brightness-V1.1-java.jar \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.display.brightness@1.1.so:/system/lib/vendor.lge.hardware.display.brightness@1.1.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.display.brightness@1.1.so:/system/lib64/vendor.lge.hardware.display.brightness@1.1.so \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.display.general-V1.0-java.jar:/system/framework/vendor.lge.hardware.display.general-V1.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.display.tune-V1.0-java.jar:/system/framework/vendor.lge.hardware.display.tune-V1.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.display.uevent-V1.0-java.jar:/system/framework/vendor.lge.hardware.display.uevent-V1.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/hw/vendor.lge.hardware.display.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.display.uevent@1.0-impl.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.display.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.display.uevent@1.0-impl.so \
+
 PRODUCT_PACKAGES += \
     gatekeeper.msm8996 \
     keystore.msm8996 \
@@ -732,7 +799,8 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     WfdService \
     WfdCommon \
-    qti-telephony-common
+    qti-telephony-common \
+    GmsCore
 endif
 
 -include vendor/extra/devices.mk
