@@ -776,6 +776,26 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.display.uevent-V1.0-java.jar:/system/framework/vendor.lge.hardware.display.uevent-V1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/vendor.lge.hardware.display.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.display.uevent@1.0-impl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.display.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.display.uevent@1.0-impl.so \
+    vendor/lge/msm8996-common/proprietary/lib64/android.hardware.light@2.0.so:/system/lib64/android.hardware.light@2.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.light@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.light@1.0-impl.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/lights.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.msm8996.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/hw/lights.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.msm8996.so \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.sensor.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.light.xml \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
+    vendor/lge/msm8996-common/proprietary/lib/android.hardware.light@2.0.so:/system/lib/android.hardware.light@2.0.so \
+    vendor/lge/msm8996-common/proprietary/etc/mmi/layout/layout_flashlight.xml:/system/etc/mmi/layout/layout_flashlight.xml \
+    vendor/lge/msm8996-common/proprietary/etc/mmi/layout/layout_button_backlight.xml:/system/etc/mmi/layout/layout_button_backlight.xml \
+    vendor/lge/msm8996-common/proprietary/etc/mmi/layout/layout_lcd_backlight.xml:/system/mmi/layout/layout_lcd_backlight.xml \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/android.hardware.light-V2.0-java.odex:/system/framework/oat/arm/android.hardware.light-V2.0-java.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/android.hardware.light-V2.0-java.vdex:/system/framework/oat/arm/android.hardware.light-V2.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/vendor.lge.hardware.light-V1.0-java.odex:/system/framework/oat/arm/vendor.lge.hardware.light-V1.0-java.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/vendor.lge.hardware.light-V1.0-java.vdex:/system/framework/oat/arm/vendor.lge.hardware.light-V1.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/android.hardware.light-V2.0-java.odex:/system/framework/oat/arm64/android.hardware.light-V2.0-java.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/android.hardware.light-V2.0-java.vdex:/system/framework/oat/arm64/android.hardware.light-V2.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.light-V1.0-java.odex:/system/framework/oat/arm64/vendor.lge.hardware.light-V1.0-java.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.light-V1.0-java.vdex:/system/framework/oat/arm64/vendor.lge.hardware.light-V1.0-java.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/android.hardware.light-V2.0-java.jar:/system/framework/android.hardware.light-V2.0-java.jar
+
 
 PRODUCT_PACKAGES += \
     gatekeeper.msm8996 \
