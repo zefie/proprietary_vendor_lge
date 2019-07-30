@@ -832,7 +832,53 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/framework/oat/arm64/android.hardware.light-V2.0-java.vdex:/system/framework/oat/arm64/android.hardware.light-V2.0-java.vdex \
     vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.light-V1.0-java.odex:/system/framework/oat/arm64/vendor.lge.hardware.light-V1.0-java.odex \
     vendor/lge/msm8996-common/proprietary/framework/oat/arm64/vendor.lge.hardware.light-V1.0-java.vdex:/system/framework/oat/arm64/vendor.lge.hardware.light-V1.0-java.vdex \
-    vendor/lge/msm8996-common/proprietary/framework/android.hardware.light-V2.0-java.jar:/system/framework/android.hardware.light-V2.0-java.jar
+    vendor/lge/msm8996-common/proprietary/framework/android.hardware.light-V2.0-java.jar:/system/framework/android.hardware.light-V2.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.postproc@1.0.so:/system/lib64/vendor.display.postproc@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.config@1.5.so:/system/lib64/vendor.display.config@1.5.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.config@1.3.so:/system/lib64/vendor.display.config@1.3.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.color@1.2.so:/system/lib64/vendor.display.color@1.2.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.config@1.2.so:/system/lib64/vendor.display.config@1.2.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.config@1.6.so:/system/lib64/vendor.display.config@1.6.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.config@1.7.so:/system/lib64/vendor.display.config@1.7.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.config@1.4.so:/system/lib64/vendor.display.config@1.4.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.color@1.1.so:/system/lib64/vendor.display.color@1.1.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.config@1.1.so:/system/lib64/vendor.display.config@1.1.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.config@1.0.so:/system/lib64/vendor.display.config@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.color@1.3.so:/system/lib64/vendor.display.color@1.3.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.config@1.8.so:/system/lib64/vendor.display.config@1.8.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.display.color@1.0.so:/system/lib64/vendor.display.color@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.2.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.1.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.3.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.2.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.1.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.3.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.postproc@1.0.so:/system/lib/vendor.display.postproc@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.5.so:/system/lib/vendor.display.config@1.5.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.3.so:/system/lib/vendor.display.config@1.3.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.color@1.2.so:/system/lib/vendor.display.color@1.2.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.2.so:/system/lib/vendor.display.config@1.2.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.6.so:/system/lib/vendor.display.config@1.6.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.7.so:/system/lib/vendor.display.config@1.7.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.4.so:/system/lib/vendor.display.config@1.4.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.color@1.1.so:/system/lib/vendor.display.color@1.1.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.1.so:/system/lib/vendor.display.config@1.1.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.0.so:/system/lib/vendor.display.config@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.color@1.3.so:/system/lib/vendor.display.color@1.3.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.8.so:/system/lib/vendor.display.config@1.8.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.display.color@1.0.so:/system/lib/vendor.display.color@1.0.so
 
 
 PRODUCT_PACKAGES += \
