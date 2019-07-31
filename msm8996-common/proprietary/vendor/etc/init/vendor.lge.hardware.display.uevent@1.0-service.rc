@@ -2,4 +2,3 @@ service vendor.lge-display-uevent-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.dis
     class hal
     user system
     group system
-    seclabel u:r:hal_display_uevent_exec:s0
