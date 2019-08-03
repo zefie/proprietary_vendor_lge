@@ -844,6 +844,35 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib/vendor.display.config@1.8.so:/system/lib/vendor.display.config@1.8.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.display.color@1.0.so:/system/lib/vendor.display.color@1.0.so
 
+# FM Radio
+PRODUCT_COPY_FILES += \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/com.broadcom.fm.xml:/system/product/etc/permissions:com.broadcom.fm.xml \
+    vendor/lge/msm8996-common/proprietary/framework/arm/boot-com.lge.fmradio.nablabs.art:/system/framework/arm/boot-com.lge.fmradio.nablabs.art \
+    vendor/lge/msm8996-common/proprietary/framework/arm/boot-com.lge.fmradio.nablabs.art.rel:/system/framework/arm/boot-com.lge.fmradio.nablabs.art.rel \
+    vendor/lge/msm8996-common/proprietary/framework/arm/boot-com.lge.fmradio.nablabs.oat:/system/framework/arm/boot-com.lge.fmradio.nablabs.oat \
+    vendor/lge/msm8996-common/proprietary/framework/arm64/boot-com.lge.fmradio.nablabs.art:/system/framework/arm64/boot-com.lge.fmradio.nablabs.art \
+    vendor/lge/msm8996-common/proprietary/framework/arm64/boot-com.lge.fmradio.nablabs.art.rel:/system/framework/arm64/boot-com.lge.fmradio.nablabs.art.rel \
+    vendor/lge/msm8996-common/proprietary/framework/arm64/boot-com.lge.fmradio.nablabs.oat:/system/framework/arm64/boot-com.lge.fmradio.nablabs.oat \
+    vendor/lge/msm8996-common/proprietary/framework/boot-com.lge.fmradio.nablabs.vdex:/system/framework/boot-com.lge.fmradio.nablabs.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/com.broadcom.fm.jar:/system/framework/com.broadcom.fm.jar \
+    vendor/lge/msm8996-common/proprietary/framework/com.lge.fmradio.nablabs.jar:/system/framework/com.lge.fmradio.nablabs.jar \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/com.broadcom.fm.odex:/system/framework/oat/arm/com.broadcom.fm.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm/com.broadcom.fm.vdex:/system/framework/oat/arm/com.broadcom.fm.vdex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/com.broadcom.fm.odex:/system/framework/oat/arm64/com.broadcom.fm.odex \
+    vendor/lge/msm8996-common/proprietary/framework/oat/arm64/com.broadcom.fm.vdex:/system/framework/oat/arm64/com.broadcom.fm.vdex \
+    vendor/lge/msm8996-common/proprietary/lib/libfmq.so:/system/lib/libfmq.so \
+    vendor/lge/msm8996-common/proprietary/lib64/libfmq.so:/system/lib64/libfmq.so \
+    vendor/lge/msm8996-common/proprietary/product/app/FmService/oat/arm64/FmService.odex:/system/product/app/FmService/oat/arm64/FmService.odex \
+    vendor/lge/msm8996-common/proprietary/product/app/FmService/oat/arm64/FmService.vdex:/system/product/app/FmService/oat/arm64/FmService.vdex \
+    vendor/lge/msm8996-common/proprietary/product/lib/libfmradio.lge.so:/system/lib/libfmradio.lge.so \
+    vendor/lge/msm8996-common/proprietary/product/lib64/libfmradio.lge.so:/system/lib64/libfmradio.lge.so \
+    vendor/lge/msm8996-common/proprietary/product/priv-app/LGFmRadio/oat/arm/LGFmRadio.odex:/system/product/priv-app/LGFmRadio/oat/arm/LGFmRadio.odex \
+    vendor/lge/msm8996-common/proprietary/product/priv-app/LGFmRadio/oat/arm/LGFmRadio.vdex:/system/product/priv-app/LGFmRadio/oat/arm/LGFmRadio.vdex \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/fmconfig:$(TARGET_COPY_OUT_VENDOR)/bin/fmconfig \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/fmfactorytest:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytest \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/fmfactorytestserver:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytestserver \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
 
 PRODUCT_PACKAGES += \
     gatekeeper.msm8996 \
@@ -867,7 +896,9 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     WfdService \
     WfdCommon \
-    qti-telephony-common
+    qti-telephony-common \
+    FmService \
+    LGFmRadio
 
 endif
 
