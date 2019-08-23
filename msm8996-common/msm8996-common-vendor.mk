@@ -669,8 +669,7 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_COPY_FILES += \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
-    vendor/lge/msm8996-common/proprietary/vendor/firmware/libpn548ad_fw_64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn548ad_fw_64.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
 
 # Postprocessing - from Stock H870 V29A
 PRODUCT_COPY_FILES += \
