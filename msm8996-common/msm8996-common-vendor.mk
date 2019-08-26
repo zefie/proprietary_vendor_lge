@@ -445,6 +445,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/lge/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
+# Privapp-permissions needed for aex
+PRODUCT_COPY_FILES += \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/privapp-permissions-com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/privapp-permissions-com.android.sdm.plugins.sprintdm.xml \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/privapp-permissions-com.android.vzwomatrigger.xml:system/etc/permissions/privapp-permissions-com.android.vzwomatrigger.xml \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/privapp-permissions-com.google.android.hiddenmenu.xml:system/etc/permissions/privapp-permissions-com.google.android.hiddenmenu.xml \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/privapp-permissions-com.motricity.verizon.ssodownloadable.xml:system/etc/permissions/privapp-permissions-com.motricity.verizon.ssodownloadable.xml \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/privapp-permissions-com.vzw.apnservice.xml:system/etc/permissions/privapp-permissions-com.vzw.apnservice.xml \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/privapp-permissions-org.lineageos.settings.device.xml:system/etc/permissions/privapp-permissions-org.lineageos.settings.device.xml \
+
 # Audio - from Stock H870 V29A
 PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/etc/permissions/audiosphere.xml:system/etc/permissions/audiosphere.xml \
