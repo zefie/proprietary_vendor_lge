@@ -73,24 +73,24 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/etc/camera/smartcam/92_smartcam_basic_02.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/smartcam/92_smartcam_basic_02.dat \
     vendor/lge/g6-common/proprietary/vendor/etc/camera/smartcam/93_smartcam_basic_03.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/smartcam/93_smartcam_basic_03.dat \
     vendor/lge/g6-common/proprietary/vendor/etc/camera/smartcam/94_smartcam_basic_04.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/smartcam/94_smartcam_basic_04.dat \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data1_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data1_0x01.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data2_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data2_0x01.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data1.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data2.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data1.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data2.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data1.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data2.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data1_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data1_0x01.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data2_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data2_0x01.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data1.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data2.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data1.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data2.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data1.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin \
+    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin \
     vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
