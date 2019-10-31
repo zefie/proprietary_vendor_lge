@@ -626,6 +626,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
+    vendor/lge/g6-common/proprietary/lib/vendor.qti.hardware.fingerprint@1.0.so:system/lib/vendor.qti.hardware.fingerprint@1.0.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lge/g6-common/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libdovi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdovi.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
@@ -635,7 +637,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/lge/g6-common/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+    vendor/lge/g6-common/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
+    vendor/lge/g6-common/proprietary/vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service \
+    vendor/lge/g6-common/proprietary/vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/lge/g6-common/proprietary/vendor/etc/init/hw/init.lge.fingerprints.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.lge.fingerprints.rc \
+    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.biometrics.fingerprint-V2.1-java.jar:system/framework/vendor.lge.hardware.biometrics.fingerprint-V2.1-java.jar \
+    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.biometrics.fingerprint-V2.2-java.jar:system/framework/vendor.lge.hardware.biometrics.fingerprint-V2.2-java.jar \
+    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.biometrics.fingerprint@2.1.so:system/lib/vendor.lge.hardware.biometrics.fingerprint@2.1.so \
+    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.biometrics.fingerprint@2.2.so:system/lib/vendor.lge.hardware.biometrics.fingerprint@2.2.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so:system/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so:system/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so \
 
 PRODUCT_PACKAGES += \
     fingerprint.msm8996 \
