@@ -337,7 +337,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_cpp_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_cpp_video_binning.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_snapshot_binning.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_video_binning.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/libdovi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdovi.so \
+    vendor/lge/g6-common/proprietary/system/lib/libdovi.so:system/lib/libdovi.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libiris_lc898123f40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiris_lc898123f40.so \
@@ -627,7 +627,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/lge/g6-common/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/lge/g6-common/proprietary/vendor/lib64/libdovi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdovi.so \
+    vendor/lge/g6-common/proprietary/system/lib64/libdovi.so:system/lib64/libdovi.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
@@ -635,7 +635,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/lge/g6-common/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+    vendor/lge/g6-common/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
+    vendor/lge/g6-common/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
+    vendor/lge/g6-common/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so
 
 PRODUCT_PACKAGES += \
     fingerprint.msm8996 \
