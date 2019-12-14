@@ -639,6 +639,52 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so
 
+# LGE - Bootproperty
+PRODUCT_COPY_FILES += \
+    vendor/lge/g6-common/proprietary/vendor/etc/init/init.lge.bootproperty_trigger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.lge.bootproperty_trigger.rc \
+    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.bootproperty@1.0.so:system/lib/vendor.lge.hardware.bootproperty@1.0.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.bootproperty@1.0.so:system/lib64/vendor.lge.hardware.bootproperty@1.0.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/hw/vendor.lge.hardware.bootproperty@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.bootproperty@1.0-impl.so \
+    vendor/lge/g6-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.bootproperty@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.bootproperty@1.0-impl.so \
+    vendor/lge/g6-common/proprietary/vendor/bin/hw/vendor.lge.hardware.bootproperty@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.bootproperty@1.0-service \
+    vendor/lge/g6-common/proprietary/vendor/etc/init/vendor.lge.hardware.bootproperty@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.bootproperty@1.0-service.rc \
+    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.bootproperty-V1.0-java.jar:system/framework/vendor.lge.hardware.bootproperty-V1.0-java.jar \
+
+# LGE - Configstore
+PRODUCT_COPY_FILES += \
+    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.configstore-V1.0-java.jar:system/framework/vendor.lge.hardware.configstore-V1.0-java.jar \
+    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.configstore@1.0.so:system/lib/vendor.lge.hardware.configstore@1.0.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.configstore@1.0.so:system/lib64/vendor.lge.hardware.configstore@1.0.so \
+    vendor/lge/g6-common/proprietary/vendor/bin/hw/vendor.lge.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.configstore@1.0-service \
+    vendor/lge/g6-common/proprietary/vendor/etc/init/vendor.lge.hardware.configstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.configstore@1.0-service.rc \
+
+# LGE - Platform
+PRODUCT_COPY_FILES += \
+    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.platform-V1.0-java.jar:system/framework/vendor.lge.hardware.platform-V1.0-java.jar \
+    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.platform-V1.1-java.jar:system/framework/vendor.lge.hardware.platform-V1.1-java.jar \
+    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.platform@1.0.so:system/lib/vendor.lge.hardware.platform@1.0.so \
+    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.platform@1.1.so:system/lib/vendor.lge.hardware.platform@1.1.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.platform@1.0.so:system/lib64/vendor.lge.hardware.platform@1.0.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.platform@1.1.so:system/lib64/vendor.lge.hardware.platform@1.1.so \
+    vendor/lge/g6-common/proprietary/vendor/bin/hw/vendor.lge.hardware.platform@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.platform@1.1-service \
+    vendor/lge/g6-common/proprietary/vendor/etc/init/vendor.lge.hardware.platform@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.platform@1.1-service.rc \
+
+# LGE - Property
+PRODUCT_COPY_FILES += \
+    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.property-V1.0-java.jar:system/framework/vendor.lge.hardware.property-V1.0-java.jar \
+    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.property-V1.1-java.jar:system/framework/vendor.lge.hardware.property-V1.1-java.jar \
+    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.property-V1.2-java.jar:system/framework/vendor.lge.hardware.property-V1.2-java.jar \
+    vendor/lge/g6-common/proprietary/vendor/bin/hw/vendor.lge.hardware.property@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.property@1.2-service \
+    vendor/lge/g6-common/proprietary/vendor/etc/init/vendor.lge.hardware.property@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.property@1.2-service.rc \
+    vendor/lge/g6-common/proprietary/vendor/lib/hw/vendor.lge.hardware.property@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.property@1.2-impl.so \
+    vendor/lge/g6-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.property@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.property@1.2-impl.so \
+    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.property@1.0.so:system/lib/vendor.lge.hardware.property@1.0.so \
+    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.property@1.1.so:system/lib/vendor.lge.hardware.property@1.1.so \
+    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.property@1.2.so:system/lib/vendor.lge.hardware.property@1.2.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.property@1.0.so:system/lib64/vendor.lge.hardware.property@1.0.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.property@1.1.so:system/lib64/vendor.lge.hardware.property@1.1.so \
+    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.property@1.2.so:system/lib64/vendor.lge.hardware.property@1.2.so
+
 PRODUCT_PACKAGES += \
     fingerprint.msm8996 \
     DolbyVisionService
