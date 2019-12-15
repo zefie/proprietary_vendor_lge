@@ -477,7 +477,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libreverbwrapper.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvolumelistener.so \
-
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libeaglecore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeaglecore.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libeaglecore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeaglecore.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdts-eagle-shared.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdts-eagle-shared.so \
 
 # Audio (acdbloader) - from Stock H870 V30A
 PRODUCT_COPY_FILES += \
