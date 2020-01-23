@@ -554,11 +554,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
 
-# Wifi - from Stock H870 V30B
-PRODUCT_COPY_FILES += \
-    vendor/lge/msm8996-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
-    vendor/lge/msm8996-common/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
-
 # Wifi-Display
 PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/bin/wfdservice:system/bin/wfdservice \
