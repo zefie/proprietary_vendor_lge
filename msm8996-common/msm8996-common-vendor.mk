@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES += \
-    libcir_driver \
     VZWAPNLib \
     vzw_msdc_api \
     HotwordEnrollmentOKGoogleWCD9335 \
