@@ -242,6 +242,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmi_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmi_jni.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
+    vendor/lge/msm8996-common/proprietary/lib/libcrypto-ss.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcrypto-ss.so \
+    vendor/lge/msm8996-common/proprietary/lib64/libcrypto-ss.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcrypto-ss.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
@@ -768,17 +771,57 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
 
-# Widevine - from Stock H870 V20I
+# Widevine - from Stock H870 V30B
 PRODUCT_COPY_FILES += \
-    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
-    vendor/lge/msm8996-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-#    vendor/lge/msm8996-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.clearkey \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
+
+# DRM - from Stock H870 V30B
+PRODUCT_COPY_FILES += \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
+    vendor/lge/msm8996-common/proprietary/lib64/libcryptfs_hw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcryptfs_hw.so \
+
+# QTEE - from Stock H870 V30B
+PRODUCT_COPY_FILES += \
+    vendor/lge/msm8996-common/proprietary/lib/libGPQTEEC_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libGPQTEEC_system.so \
+    vendor/lge/msm8996-common/proprietary/lib64/libGPQTEEC_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libGPQTEEC_system.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPQTEEC_vendor.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPQTEEC_vendor.so \
+    vendor/lge/msm8996-common/proprietary/lib/libQTEEConnector_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libQTEEConnector_system.so \
+    vendor/lge/msm8996-common/proprietary/lib64/libQTEEConnector_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libQTEEConnector_system.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
+
+# TUI - from Stock H870 V30B
+PRODUCT_COPY_FILES += \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
 
 # Hexedited blobs
 PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib64/android.hardware.gnss@8.0.so:system/lib64/android.hardware.gnss@8.0.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib64/lib-sec-disp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-sec-disp.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libhui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhui.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libux.so
 
