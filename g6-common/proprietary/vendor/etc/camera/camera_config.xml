@@ -190,30 +190,6 @@ LensType :
   </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>2</CameraId>
-    <SensorName>s5k3m3</SensorName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>s5k3m3_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <LensType>WIDE</LensType>
-      <FocalLength>1.45</FocalLength>
-      <FNumber>2.4</FNumber>
-      <TotalFocusDistance>10</TotalFocusDistance>
-      <HorizontalViewAngle>108.7</HorizontalViewAngle>
-      <VerticalViewAngle>87.2</VerticalViewAngle>
-      <MinFocusDistance>1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-   <CameraModuleConfig>
-    <CameraId>2</CameraId>
     <SensorName>imx258_mono_lgit</SensorName>
     <FlashName>pmic</FlashName>
     <EepromName>imx258_brcb032gwz</EepromName>
